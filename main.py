@@ -115,9 +115,6 @@ class GA:
 		print(markTemp)
 		self.markArray.append(markTemp)
 
-	def mixPlay(self):
-		pass
-
 
 #编码函数,编码规则: hex(course).hex(teacher).hex(room)
 	def encode(self,biglist):
